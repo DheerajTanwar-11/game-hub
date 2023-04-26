@@ -10,6 +10,7 @@ export interface Game {
   id: number;
   name: string;
   slug: string;
+  description_raw: string;
   released: string;
   tba: boolean;
   background_image: string;
