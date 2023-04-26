@@ -1,7 +1,7 @@
 {
   "name": "game-hub",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,7 +20,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-infinite-scroll-component": "^6.1.0"
+    "react-infinite-scroll-component": "^6.1.0",
+    "zustand": "^4.3.7"
   },
   "devDependencies": {
     "@types/ms": "^0.7.31",
