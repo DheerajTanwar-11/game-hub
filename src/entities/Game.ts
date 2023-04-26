@@ -1,10 +1,13 @@
+import { Genre } from "./Genre";
 import { Platform } from "./Platform";
+import { Publisher } from "./Publisher";
 
 export interface Game {
   id: number;
   name: string;
   slug: string;
   description_raw: string;
+  publishers: Publisher[];
   released: string;
   tba: boolean;
   background_image: string;
@@ -25,7 +28,7 @@ export interface Game {
   dominant_color: string;
   platforms: [];
   parent_platforms: { platform: Platform }[];
-  genres: [];
+  genres: Genre[];
   stores: [];
   clip: null;
   tags: [];
