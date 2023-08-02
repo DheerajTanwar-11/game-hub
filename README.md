@@ -41,7 +41,7 @@ yarn install
 cp .env.example .env
 ```
 
-Edit the `.env` file and replace `YOUR_RAWG_API_KEY` with your actual API key.
+Edit the `.env` file and replace `VITE_RAWG_API_KEY` with your actual API key.
 
 4. Start the development server.
 
